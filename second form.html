@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>
+             Register
+        </h1>
+            <form action="Register" method="POST">
+                <label for="First Name">First name:</label>
+                <input type="text" id="First Name" required placeholder="John">
+
+
+                <label for="Last Name">Last Name:</label>
+                <input type="text" id="Last Name" required placeholder="Smith">
+
+                <br>
+
+                <label for="">Male:</label>
+                <input id="sex" name="sex"  type="radio" value="accepted">
+
+                <label for="">Female:</label>
+                <input id="sex" name="sex" type="radio" value="accepted">
+
+                <label for="">Other:</label>
+                <input id="sex" name="sex" type="radio" value="accepted">
+                <br>
+
+                <label for="Email">Email:</label>
+                <input type="Email" required maxlength="16" placeholder="your email">
+                <label for="Password">Password:</label>
+                <input type="Password" id="Password" required placeholder="your password" pattern="5,10">
+
+                <br>
+
+                <label for="Select-choice">Birthday</label>
+                <select id="Select-choice" name="Select-choice"> 
+                    <option>January</option>
+                    </select>
+
+                <label for="Select-Year">Year</label>
+                <select id="Select-Year" name="Select-Year"> 
+                    <option>2010</option>
+                    </select>
+
+                    <label for="Select-day">day</label>
+                <select id="Select-day" name="Select-day"> 
+                    <option>1</option>
+                    </select>
+
+                <br>
+
+                <label for="terms">I agree to terms and conditions</label>
+            
+                <input type="radio" name="terms" id="terms">
+
+                <br>
+
+                <input type="submit">
+            
+            </form>
+           
+        
+    </body>
+   
+</html>
