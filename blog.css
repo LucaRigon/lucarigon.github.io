@@ -1,0 +1,32 @@
+h1 {
+    color: #3098dd ;
+    
+}
+
+.quote  {
+    border-left: solid 8px #bdc7cf;
+}
+
+.quote2  {
+    border-left: solid 8px #bdc7cf;
+}
+
+.date {
+    color: #354add ;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    padding: 10px;
+}
+
+body {
+    border: 10px solid grey;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
